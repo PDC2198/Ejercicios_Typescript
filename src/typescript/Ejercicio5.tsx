@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from 'react';
 
 export const Ejercicio5 = () => {
@@ -26,27 +25,3 @@ export const Ejercicio5 = () => {
         </div>
     );
 };
-=======
-/**5.	Empleado el hook useState crear un acumulador de 5. Se debe visualizar el valor del acumular y dos botones (incrementar - disminuir) */
-import React, { useState } from 'react';
-
-const useAcumulador = () => {
-    const [acumulador, setAcumulador] = useState(5);
-
-    const incrementarAcumulador = () => {
-        setAcumulador(acumulador + 5);
-    }
-
-    const disminuirAcumulador = () => {
-        setAcumulador(acumulador - 5);
-    }
-
-    return {
-        acumulador,
-        incrementarAcumulador,
-        disminuirAcumulador,
-    };
-}
-
-export default useAcumulador;
->>>>>>> 78945b39d69dc55b7ab7f4f4c1296d95f968ebb2
