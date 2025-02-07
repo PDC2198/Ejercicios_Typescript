@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const Ejercicio2 = () => {
   // Arreglo 
   const numeros: number[] = [1, 2, 3, 4, 5];
@@ -20,3 +21,17 @@ export const Ejercicio2 = () => {
     </div>
   );
 };
+=======
+/*2.	Desarrolle una función que reciba un arreglo como parámetro y como resultado retorne la suma de los elementos del arreglo. */
+
+
+export function sumarArreglo(arreglo: number[]): number {
+
+    let suma = 0
+    ;
+    for (let num of arreglo) {
+        suma += num;
+    }
+    return suma;
+}
+>>>>>>> 78945b39d69dc55b7ab7f4f4c1296d95f968ebb2

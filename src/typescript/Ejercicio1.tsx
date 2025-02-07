@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 
 export const Ejercicio1 = () => {
@@ -26,3 +27,11 @@ export const Ejercicio1 = () => {
         </div>
     );
 };
+=======
+/* 1.	Crear una función con parámetros que permita calcular el área de un cuadrado.*/
+
+export function calcularAreaCuadrado(lado: number): number {
+    const area = lado * lado;
+    return area;
+}
+>>>>>>> 78945b39d69dc55b7ab7f4f4c1296d95f968ebb2

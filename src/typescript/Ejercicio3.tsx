@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const Ejercicio3 = () => {
     // Arreglo 
     const arreglo: number[] = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
@@ -20,3 +21,13 @@ export const Ejercicio3 = () => {
         </div>
     );
 };
+=======
+/**3.	Del siguiente arreglo devolver un nuevo arreglo con los valores divididos para 5.
+const arreglo = [5,10,15,20,25,30,35,40,45,50]
+Recomendación emplear función map.
+ */
+
+export const dividirArregloPorCinco = (arreglo: number[]): number[] => {
+    return arreglo.map((numero) => numero / 5);
+}
+>>>>>>> 78945b39d69dc55b7ab7f4f4c1296d95f968ebb2
